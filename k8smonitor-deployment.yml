@@ -16,7 +16,7 @@ spec:
         - name: APPLICATION_NAME
           value: <app name>
         - name: TIER_NAME
-          value: <same from extension's config.yml>
+          value: K8SClusterAgent
         - name: CONTROLLER_PORT
           value: <port num: use 443 for saas ssl>
         - name: CONTROLLER_HOST
