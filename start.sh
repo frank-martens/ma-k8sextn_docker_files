@@ -1,8 +1,15 @@
 #!/bin/bash
 
+MACHINE_AGENT_HOME=/opt/appdynamics
+
 if [[ $ENABLE_DEBUG = "true" ]];
 then
   sed -i 's/<level value="info"\/>/<level value="debug"\/>/' ${MACHINE_AGENT_HOME}/conf/logging/log4j.xml
+fi
+
+if [ -f /tmp/k8sconfig/config.yml ]
+then
+    cp -f /tmp/k8sconfig/config.yml ${MACHINE_AGENT_HOME}/monitors/KubernetesSnapshotExtension/
 fi
 
 MA_PROPERTIES="-Dappdynamics.controller.hostName=${CONTROLLER_HOST}"
