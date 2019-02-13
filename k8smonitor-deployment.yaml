@@ -10,7 +10,6 @@ spec:
       labels:
         name: <appname>-clusteragent
     spec:
-      serviceAccountName: appd-k8smon
       containers:
       - env:
         - name: APPLICATION_NAME
