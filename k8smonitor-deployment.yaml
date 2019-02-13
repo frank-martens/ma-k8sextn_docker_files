@@ -13,8 +13,6 @@ spec:
       serviceAccountName: appd-k8smon
       containers:
       - env:
-        - name: SIM_ENABLED
-          value: "false"
         - name: APPLICATION_NAME
           value: "<app name>"
         - name: TIER_NAME
@@ -32,7 +30,11 @@ spec:
         - name: APPD_DOCKER_VISIBILITY
           value: "false"
         - name: MACHINE_AGENT_PROPERTIES
-          value:
+          value: 
+        - name: HOSTNAME
+          valueFrom:
+            fieldRef:
+              fieldPath: spec.nodeName
         image: <docker image location>
         envFrom:
           - configMapRef:
