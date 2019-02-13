@@ -11,13 +11,16 @@ spec:
         name: <appname>-clusteragent
     spec:
       containers:
-      - env:
+      - name: <appname>-clusteragent
+        env:
         - name: APPLICATION_NAME
           value: "<app name>"
         - name: TIER_NAME
           value: "K8SClusterAgent"
         - name: CONTROLLER_PORT
           value: "<port num: use 443 for saas ssl>"
+        - name: CONTROLLER_SSL_ENABLED
+          value: "<true/false>"
         - name: CONTROLLER_HOST
           value: "<[account].saas.appdynamics.com>"
         - name: ACCOUNT_ACCESS_KEY
@@ -35,31 +38,21 @@ spec:
             fieldRef:
               fieldPath: spec.nodeName
         image: <docker image location>
-        envFrom:
-          - configMapRef:
-              name: env-map
         imagePullPolicy: Always
-        name: <appname>-clusteragent
         volumeMounts:
-        - mountPath: /hostroot
-          name: hostroot
-          readOnly: false
         - mountPath: /var/run/docker.sock
           name: docker-sock
         - mountPath: /var/lib/docker/containers
           name: docker-containers
         - mountPath: /var/log
           name: docker-logs
-        - mountPath: /project
-          name: project
-        - mountPath: /appdynamics
-          name: appdynamics
+        - mountPath: /tmp/k8sconfig/
+          name: config-volume
       restartPolicy: Always
       volumes:
-      - name: hostroot
-        hostPath:
-          path: /
-          type: Directory
+      - name: config-volume
+        configMap:
+          name: mak8s-config-yml
       - name: docker-sock
         hostPath:
           path: /var/run/docker.sock
@@ -72,5 +65,3 @@ spec:
         hostPath:
             path: /var/log
             type: Directory
-      - name: project
-      - name: appdynamics
