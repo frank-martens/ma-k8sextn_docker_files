@@ -11,8 +11,6 @@ MA_PROPERTIES+=" -Dappdynamics.agent.accountName=${ACCOUNT_NAME}"
 MA_PROPERTIES+=" -Dappdynamics.agent.accountAccessKey=${ACCOUNT_ACCESS_KEY}"
 MA_PROPERTIES+=" -Dappdynamics.controller.ssl.enabled=${CONTROLLER_SSL_ENABLED}"
 MA_PROPERTIES+=" -Dappdynamics.agent.applicationName=${APPLICATION_NAME}"
-MA_PROPERTIES+=" -Dappdynamics.agent.tierName=${TIER_NAME}"
-MA_PROPERTIES+=" -Dappdynamics.agent.nodeName=${APPLICATION_NAME}_node1"
 MA_PROPERTIES+=" -Dappdynamics.machine.agent.hierarchyPath=SVM-${HOSTNAME}"
 MA_PROPERTIES+=" -Dappdynamics.sim.enabled=false -Dappdynamics.docker.enabled=false"
 
