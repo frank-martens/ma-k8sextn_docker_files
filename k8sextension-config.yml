@@ -11,7 +11,9 @@ appName: "Openshift-Cluster-01" # APPLICATION_NAME env var
 appTierName: "ClusterAgent"  # TIER_NAME en var
 
 # Path to your kubectl Client configuration
-kubeClientConfig: "/home/origin/.kube/config"
+#kubeClientConfig: "/home/origin/.kube/config"
+# Can leave this blank if POD is deployed within the Kubernetes cluster
+kubeClientConfig: ""
 
 #server or cluster
 apiMode: "server"  #K8S_API_MODE env var
