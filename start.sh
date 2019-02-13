@@ -7,9 +7,9 @@ then
   sed -i 's/<level value="info"\/>/<level value="debug"\/>/' ${MACHINE_AGENT_HOME}/conf/logging/log4j.xml
 fi
 
-if [ -f /tmp/k8sconfig/config.yml ]
+if [ -f /tmp/k8sconfig/k8sextension-config.yml ]
 then
-    cp -f /tmp/k8sconfig/config.yml ${MACHINE_AGENT_HOME}/monitors/KubernetesSnapshotExtension/
+    cp -f /tmp/k8sconfig/k8sextension-config.yml ${MACHINE_AGENT_HOME}/monitors/KubernetesSnapshotExtension/config.yml
 fi
 
 MA_PROPERTIES="-Dappdynamics.controller.hostName=${CONTROLLER_HOST}"
