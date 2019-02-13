@@ -16,7 +16,7 @@ appTierName: "ClusterAgent"  # TIER_NAME en var
 kubeClientConfig: ""
 
 #server or cluster
-apiMode: "server"  #K8S_API_MODE env var
+apiMode: "cluster"  #K8S_API_MODE env var
 
 # Events API Key obtained from AppDynamics --> Analytics --> Configuration API Keys --> Add
 # The API Key you create needs to be able to Manage and Publish Custom Analytics Events
@@ -42,7 +42,6 @@ endpointSchemaName: "k8s_endpoint_snapshots"
 
 batchSize: "100"
 
-
 entities:
 - type: "pod"
 - type: "node"
@@ -53,11 +52,11 @@ entities:
 - type: "endpoint"
 
 # list of nodes to collect metrics for. If all nodes need to be monitored, set name to "all"
-nodes:
+nodes: all
 #- name:
 
 # list of namespaces to collect metrics for. If all namespaces need to be monitored, set name to "all"
-namespaces:
+namespaces: all
 #- name:
 
 # Absolute path to the dashboard template.
@@ -74,7 +73,8 @@ dashboardNameSuffix: "SUMMARY"
 controllerAPIUser: ""   # REST_API_CREDENTIALS env var
 
 # Controller url, including the protocol
-controllerUrl: "http://staging.demo.appdynamics.com/controller/" # REST_API_URL env var
+#controllerUrl: "http://<account>.saas.appdynamics.com/controller/" # REST_API_URL env var
+controllerUrl: "http://<account>.saas.appdynamics.com/controller/" # REST_API_URL env var
 
 #Time in seconds between the checks if the default dashboard exists
 dashboardCheckInterval: "600"

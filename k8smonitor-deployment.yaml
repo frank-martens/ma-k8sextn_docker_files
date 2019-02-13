@@ -13,18 +13,20 @@ spec:
       serviceAccountName: appd-k8smon
       containers:
       - env:
+        - name: SIM_ENABLED
+          value: "false"
         - name: APPLICATION_NAME
-          value: <app name>
+          value: "<app name>"
         - name: TIER_NAME
-          value: K8SClusterAgent
+          value: "K8SClusterAgent"
         - name: CONTROLLER_PORT
-          value: <port num: use 443 for saas ssl>
+          value: "<port num: use 443 for saas ssl>"
         - name: CONTROLLER_HOST
-          value: <controller_hostname, e.g. [account].saas.appdynamics.com>
+          value: "<[account].saas.appdynamics.com>"
         - name: ACCOUNT_ACCESS_KEY
-          value: <account_access_key>
+          value: "<account_access_key>"
         - name: ACCOUNT_NAME
-          value: <account_name>
+          value: "<account_name>"
         - name: APPD_ANALYTICS_MONITOR
           value: "false"
         - name: APPD_DOCKER_VISIBILITY
