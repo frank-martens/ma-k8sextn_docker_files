@@ -60,10 +60,10 @@ namespaces: all
 #- name:
 
 # Absolute path to the dashboard template.
-dashboardTemplatePath: "templates/k8s_dashboard_template.json"
+dashboardTemplatePath: "/monitors/KubernetesSnapshotExtension/templates/k8s_dashboard_template.json"
 
 # Absolute path to the node widget template.
-nodeTemplatePath: "templates/k8s_node_template.json"
+nodeTemplatePath: "/monitors/KubernetesSnapshotExtension/templates/k8s_node_template.json"
 
 #Suffix appended to the generated dashboard name
 dashboardNameSuffix: "SUMMARY"
@@ -275,4 +275,3 @@ endpointSchemaDefinition: '{
     "downContext": "string"
   }
 }'
-
