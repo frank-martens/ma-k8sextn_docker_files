@@ -1,7 +1,7 @@
 # pull the latest 4.5 machine agent
 FROM openjdk:8-jdk-alpine
 
-RUN apk add --no-cache bash gawk sed grep bc coreutils
+RUN apk add --no-cache bash curl gawk sed grep bc coreutils
 
 ENV MACHINE_AGENT_HOME /opt/appdynamics
 
