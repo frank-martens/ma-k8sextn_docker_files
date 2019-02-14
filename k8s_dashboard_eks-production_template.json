@@ -243,7 +243,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|CrashLoops",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|CrashLoops",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -284,7 +284,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|PodRestarts",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|PodRestarts",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -420,7 +420,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|NoReadinessProbe",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|NoReadinessProbe",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -503,7 +503,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|NoLimits",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|NoLimits",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -634,7 +634,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Running",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Running",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -685,7 +685,7 @@
                                     "displayName": "All",
                                     "inputMetricText": false,
                                     "inputMetricPath": null,
-                                    "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Pods",
+                                    "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Pods",
                                     "scopeEntity": {
                                         "applicationName": "",
                                         "entityType": "APPLICATION_COMPONENT",
@@ -701,7 +701,7 @@
                                     "displayName": "evic",
                                     "inputMetricText": false,
                                     "inputMetricPath": null,
-                                    "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Evictions",
+                                    "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Evictions",
                                     "scopeEntity": {
                                         "applicationName": "",
                                         "entityType": "APPLICATION_COMPONENT",
@@ -718,7 +718,7 @@
                                 "displayName": "Running",
                                 "inputMetricText": false,
                                 "inputMetricPath": null,
-                                "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Running",
+                                "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Running",
                                 "scopeEntity": {
                                     "applicationName": "",
                                     "entityType": "APPLICATION_COMPONENT",
@@ -811,7 +811,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|OrphanEndpoints",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|OrphanEndpoints",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -942,7 +942,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|HealthyEndpoints",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|HealthyEndpoints",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -983,7 +983,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|UnhealthyEndpoints",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|UnhealthyEndpoints",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -1163,7 +1163,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|HealthyEndpoints",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|HealthyEndpoints",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -1290,7 +1290,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|UnhealthyEndpoints",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|UnhealthyEndpoints",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -1417,7 +1417,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Evictions",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Evictions",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -1500,7 +1500,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Privileged",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Privileged",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -1583,7 +1583,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Endpoints",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Endpoints",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -1798,7 +1798,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|NoLivenessProbe",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|NoLivenessProbe",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -1925,7 +1925,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|PodRestarts",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|PodRestarts",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -2008,7 +2008,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Pods",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Pods",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -2135,7 +2135,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|DaemonSets",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|DaemonSets",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -2262,7 +2262,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Deployments",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Deployments",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -2389,7 +2389,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|ReplicaSets",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|ReplicaSets",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -2560,7 +2560,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|DaemonReplicasAvailable",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|DaemonReplicasAvailable",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -2643,7 +2643,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|DaemonReplicasUnAvailable",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|DaemonReplicasUnAvailable",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -2726,7 +2726,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|DeployReplicas",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|DeployReplicas",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -2809,7 +2809,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|DeployReplicasUnAvailable",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|DeployReplicasUnAvailable",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -2892,7 +2892,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|RsReplicas",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|RsReplicas",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -2975,7 +2975,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|RsReplicasUnAvailable",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|RsReplicasUnAvailable",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -3058,7 +3058,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|EvictionThreats",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|EvictionThreats",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -3143,7 +3143,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|EvictionThreats",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|EvictionThreats",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -3236,7 +3236,7 @@
                                     "displayName": "limits",
                                     "inputMetricText": false,
                                     "inputMetricPath": null,
-                                    "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|NoLimits",
+                                    "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|NoLimits",
                                     "scopeEntity": {
                                         "applicationName": "",
                                         "entityType": "APPLICATION_COMPONENT",
@@ -3252,7 +3252,7 @@
                                     "displayName": "total",
                                     "inputMetricText": false,
                                     "inputMetricPath": null,
-                                    "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Pods",
+                                    "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Pods",
                                     "scopeEntity": {
                                         "applicationName": "",
                                         "entityType": "APPLICATION_COMPONENT",
@@ -3397,7 +3397,7 @@
                                     "displayName": "ready",
                                     "inputMetricText": false,
                                     "inputMetricPath": null,
-                                    "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|NoReadinessProbe",
+                                    "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|NoReadinessProbe",
                                     "scopeEntity": {
                                         "applicationName": "",
                                         "entityType": "APPLICATION_COMPONENT",
@@ -3413,7 +3413,7 @@
                                     "displayName": "total",
                                     "inputMetricText": false,
                                     "inputMetricPath": null,
-                                    "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Pods",
+                                    "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Pods",
                                     "scopeEntity": {
                                         "applicationName": "",
                                         "entityType": "APPLICATION_COMPONENT",
@@ -3558,7 +3558,7 @@
                                     "displayName": "live",
                                     "inputMetricText": false,
                                     "inputMetricPath": null,
-                                    "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|NoLivenessProbe",
+                                    "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|NoLivenessProbe",
                                     "scopeEntity": {
                                         "applicationName": "",
                                         "entityType": "APPLICATION_COMPONENT",
@@ -3574,7 +3574,7 @@
                                     "displayName": "total",
                                     "inputMetricText": false,
                                     "inputMetricPath": null,
-                                    "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Pods",
+                                    "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Pods",
                                     "scopeEntity": {
                                         "applicationName": "",
                                         "entityType": "APPLICATION_COMPONENT",
@@ -3719,7 +3719,7 @@
                                     "displayName": "pend",
                                     "inputMetricText": false,
                                     "inputMetricPath": null,
-                                    "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Pending",
+                                    "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Pending",
                                     "scopeEntity": {
                                         "applicationName": "",
                                         "entityType": "APPLICATION_COMPONENT",
@@ -3735,7 +3735,7 @@
                                     "displayName": "total",
                                     "inputMetricText": false,
                                     "inputMetricPath": null,
-                                    "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Pods",
+                                    "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Pods",
                                     "scopeEntity": {
                                         "applicationName": "",
                                         "entityType": "APPLICATION_COMPONENT",
@@ -3836,7 +3836,7 @@
                                     "displayName": "evic",
                                     "inputMetricText": false,
                                     "inputMetricPath": null,
-                                    "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Evictions",
+                                    "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Evictions",
                                     "scopeEntity": {
                                         "applicationName": "",
                                         "entityType": "APPLICATION_COMPONENT",
@@ -3852,7 +3852,7 @@
                                     "displayName": "total",
                                     "inputMetricText": false,
                                     "inputMetricPath": null,
-                                    "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Pods",
+                                    "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Pods",
                                     "scopeEntity": {
                                         "applicationName": "",
                                         "entityType": "APPLICATION_COMPONENT",
@@ -4031,7 +4031,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Pending",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Pending",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -4114,7 +4114,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|InitContainers",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|InitContainers",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -4751,7 +4751,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|Running",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|Running",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -4970,7 +4970,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|DaemonCollisionCount",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|DaemonCollisionCount",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -5011,7 +5011,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|DeployCollisionCount",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|DeployCollisionCount",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -5193,7 +5193,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|ScaleDowns",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|ScaleDowns",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -5234,7 +5234,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|PodKills",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|PodKills",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -5372,7 +5372,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|StorageIssues",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|StorageIssues",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -5413,7 +5413,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|QuotaViolations",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|QuotaViolations",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -5597,7 +5597,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|ImagePullErrors",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|ImagePullErrors",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
@@ -5638,7 +5638,7 @@
                             "displayName": "null",
                             "inputMetricText": false,
                             "inputMetricPath": null,
-                            "metricPath": "Application Infrastructure Performance|K8SClusterAgent|Custom Metrics|Cluster Stats|ImagePulls",
+                            "metricPath": "Application Infrastructure Performance|%s|Custom Metrics|Cluster Stats|ImagePulls",
                             "scopeEntity": {
                                 "applicationName": "",
                                 "entityType": "APPLICATION_COMPONENT",
