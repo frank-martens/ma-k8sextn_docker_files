@@ -1,6 +1,0 @@
-buildName=19522-4.5.2.next-Analytics
-buildHash=3a776bab2862004b7c5aec43f29b776c14f8ceb8
-buildTimestamp=2018-10-15T20:12:26+0000
-buildNumber=4.5.2.19522
-jobName=Analytics
-version=4.5.2.19522
