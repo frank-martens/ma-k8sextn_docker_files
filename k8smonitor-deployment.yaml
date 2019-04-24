@@ -39,6 +39,8 @@ spec:
               fieldPath: spec.nodeName
         image: <docker image location>
         imagePullPolicy: Always
+        securityContext:
+          privileged: true
         volumeMounts:
         - mountPath: /var/run/docker.sock
           name: docker-sock
@@ -52,7 +54,7 @@ spec:
       volumes:
       - name: config-volume
         configMap:
-          name: mak8s-config-yml
+          name: MAk8sEXTN-config
       - name: docker-sock
         hostPath:
           path: /var/run/docker.sock
