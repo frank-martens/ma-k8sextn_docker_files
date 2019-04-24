@@ -56,7 +56,7 @@ spec:
       volumes:
       - name: config-volume
         configMap:
-          name: MAk8sEXTN-config
+          name: mak8sextn-config
       - name: docker-sock
         hostPath:
           path: /var/run/docker.sock
