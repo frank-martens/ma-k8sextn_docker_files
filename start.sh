@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MACHINE_AGENT_HOME=/opt/appdynamics
+MACHINE_AGENT_HOME=/opt/appdynamics/ma
 
 if [[ $ENABLE_DEBUG = "true" ]];
 then
