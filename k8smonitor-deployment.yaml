@@ -14,7 +14,7 @@ spec:
       - name: <appname>-clusteragent
         env:
         - name: APPLICATION_NAME
-          value: "<app name>"
+          value: "<AppDynamics --> Applications --> [Application Name Running on K8S]>"
         - name: TIER_NAME
           value: "K8SClusterAgent"
         - name: CONTROLLER_PORT
@@ -24,9 +24,11 @@ spec:
         - name: CONTROLLER_HOST
           value: "<[account].saas.appdynamics.com>"
         - name: ACCOUNT_ACCESS_KEY
-          value: "<account_access_key>"
+          value: "<AppDynamics --> Settings --> License --> Accounts --> Access Key>"
         - name: ACCOUNT_NAME
-          value: "<account_name>"
+          value: "<AppDynamics --> Settings --> License --> Accounts --> Name>"
+        - name: GLOBAL_ACCOUNT_NAME
+          value: "<AppDynamics --> Settings --> License --> Accounts --> Global Account Name>"
         - name: APPD_ANALYTICS_MONITOR
           value: "false"
         - name: APPD_DOCKER_VISIBILITY
