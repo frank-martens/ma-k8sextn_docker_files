@@ -31,8 +31,10 @@ spec:
           value: "<AppDynamics --> Settings --> License --> Accounts --> Global Account Name>"
         - name: APPD_ANALYTICS_MONITOR
           value: "false"
-        - name: APPD_DOCKER_VISIBILITY
-          value: "false"
+        - name: APPDYNAMICS_DOCKER_ENABLED
+          value: "true"
+        - name: APPDYNAMICS_SIM_ENABLED
+          value: "true"
         - name: MACHINE_AGENT_PROPERTIES
           value: 
         - name: HOSTNAME
@@ -52,11 +54,18 @@ spec:
           name: docker-logs
         - mountPath: /tmp/k8sconfig/
           name: config-volume
+        - mountPath: /hostroot
+          name: hostroot
+          readOnly: true
       restartPolicy: Always
       volumes:
       - name: config-volume
         configMap:
           name: mak8sextn-config
+      - name: hostroot
+        hostPath:
+          path: /
+          type: Directory
       - name: docker-sock
         hostPath:
           path: /var/run/docker.sock
