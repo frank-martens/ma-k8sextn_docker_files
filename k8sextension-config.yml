@@ -7,8 +7,8 @@ numberOfThreads: 23 # 7 tasks x 3 sub tasks + 2 extra
 metricPrefix: "Server|Component:%s|Custom Metrics|Cluster Stats|"
 #metricPrefix:  "Custom Metrics|Cluster Stats|"
 
-appName: "Openshift-Cluster-01" # APPLICATION_NAME env var
-appTierName: "ClusterAgent"  # TIER_NAME en var
+#appName: "Openshift-Cluster-01" # APPLICATION_NAME env var
+#appTierName: "ClusterAgent"  # TIER_NAME en var
 
 # Path to your kubectl Client configuration
 #kubeClientConfig: "/home/origin/.kube/config"
@@ -24,7 +24,7 @@ eventsApiKey: ""  # EVENT_ACCESS_KEY env var
 
 # Global Account Name obtained from
 # AppDynamics --> Settings --> License --> Accounts --> Global Account Name
-accountName: ""  # GLOBAL_ACCOUNT_NAME env var
+#accountName: ""  # GLOBAL_ACCOUNT_NAME env var
 
 podsSchemaName: "k8s_pod_snapshots"
 

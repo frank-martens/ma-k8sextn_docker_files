@@ -1,4 +1,4 @@
-# pull the latest 4.5 machine agent
+# pull the latest jdk-alpine
 FROM openjdk:8-jdk-alpine
 
 RUN apk add --no-cache bash curl gawk sed grep bc coreutils
