@@ -1,30 +1,31 @@
 # Number of Threads for the Extension
 numberOfThreads: 23 # 7 tasks x 3 sub tasks + 2 extra
 
-# This will create it in specific Tier aka Component. Replace <COMPONENT_ID>.
-# Please make sure to have a trailing |.
-# To find out the COMPONENT_ID, please see the screen shot here https://docs.appdynamics.com/display/latest/Build+a+Monitoring+Extension+Using+Java
+## REQUIRED: Change "%s" with the same value as what goes in "appTierName" below
 metricPrefix: "Server|Component:%s|Custom Metrics|Cluster Stats|"
-#metricPrefix:  "Custom Metrics|Cluster Stats|"
 
-#appName: "Openshift-Cluster-01" # APPLICATION_NAME env var
-#appTierName: "ClusterAgent"  # TIER_NAME en var
+## REQUIRED: Use the same value that the machine agent uses for "APPLICATION_NAME" in the "k8smonitor-deployment.yaml" file
+appName: ""
+
+## REQUIRED: Use the same value that the machine agent uses for "TIER_NAME" in the "k8smonitor-deployment.yaml" file
+appTierName: ""
 
 # Path to your kubectl Client configuration
-#kubeClientConfig: "/home/origin/.kube/config"
-# Can leave this blank if POD is deployed within the Kubernetes cluster
+# NOTE: Can leave this blank if POD is deployed within the Kubernetes cluster
+# EXAMPLE: kubeClientConfig: "/home/origin/.kube/config"
 kubeClientConfig: ""
 
 #server or cluster
 apiMode: "cluster"  #K8S_API_MODE env var
 
-# Events API Key obtained from AppDynamics --> Analytics --> Configuration API Keys --> Add
+# OPTIONAL: Events API Key
 # The API Key you create needs to be able to Manage and Publish Custom Analytics Events
-eventsApiKey: ""  # EVENT_ACCESS_KEY env var
+# FIND HERE:  AppDynamics --> Analytics --> Configuration API Keys --> Add
+eventsApiKey: ""
 
-# Global Account Name obtained from
-# AppDynamics --> Settings --> License --> Accounts --> Global Account Name
-#accountName: ""  # GLOBAL_ACCOUNT_NAME env var
+# REQUIRED: Global Account Name obtained from the controller
+# FIND HERE: AppDynamics --> Settings --> License --> Accounts --> Global Account Name
+accountName: ""
 
 podsSchemaName: "k8s_pod_snapshots"
 
@@ -68,18 +69,21 @@ nodeTemplatePath: "./templates/k8s_node_template.json"
 #Suffix appended to the generated dashboard name
 dashboardNameSuffix: "SUMMARY"
 
-# REST API user credentials. The use should have rights to create dashboards and analytics searches.
-# Format: <username>@<accountname>:<password>
+# REQUIRED: REST API user credentials. 
+# The use should have rights to create dashboards and analytics searches.
+# Find the "accountname" here: AppDynamics -> Settings -> License -> Account -> Name
+# FORMAT: <username>@<accountname>:<password>
+# EXAMPLE: johndoe@customer:myP@assw0rd
 controllerAPIUser: ""   # REST_API_CREDENTIALS env var
 
-# Controller url, including the protocol
-#controllerUrl: "http://<account>.saas.appdynamics.com/controller/" # REST_API_URL env var
-controllerUrl: "http://<account>.saas.appdynamics.com/controller/" # REST_API_URL env var
+# REQUIRED: Controller url, including the protocol
+# EXAMPLE: controllerUrl: "http://<account>.saas.appdynamics.com/controller/" 
+controllerUrl: "http://<account>.saas.appdynamics.com/controller/" 
 
 #Time in seconds between the checks if the default dashboard exists
 dashboardCheckInterval: "600"
 
-# Events Service Endpoint. These Default settings are for SaaS Users. Change if you are on Premise
+# OPTIONAL: Events Service Endpoint. These Default settings are for SaaS Users. Change if you are on Premise
 eventsUrl: "https://analytics.api.appdynamics.com"  # EVENTS_API_URL env var
 
 
