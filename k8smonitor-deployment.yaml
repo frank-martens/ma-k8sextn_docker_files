@@ -32,9 +32,9 @@ spec:
         - name: APPD_ANALYTICS_MONITOR
           value: "false"
         - name: APPDYNAMICS_DOCKER_ENABLED
-          value: "true"
+          value: "false"
         - name: APPDYNAMICS_SIM_ENABLED
-          value: "true"
+          value: "false"
         - name: MACHINE_AGENT_PROPERTIES
           value: 
         - name: HOSTNAME
